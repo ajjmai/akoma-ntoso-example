@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/cs01/part2-specs/schemas/akomantoso30.xsd">
+  <act name="laki">
+    <meta>
+      <identification source="#valleala">
+        <FRBRWork>
+          <FRBRthis value="/akn/fi/act/2018-01-12/63/!main" />
+          <FRBRuri value="/akn/fi/act/2018-01-12/63" />
+          <FRBRdate date="2018-01-12" name="Approval" />
+          <FRBRauthor href="#eduskunta" as="#author" />
+          <FRBRcountry value="fi" />
+          <FRBRnumber value="63" />
+          <FRBRname value="Laki avaruustoiminnasta" />
+          <FRBRprescriptive value="true" />
+          <FRBRauthoritative value="true" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/fi/act/2018-01-12/63/fi@/!main" />
+          <FRBRuri value="/akn/fi/act/2018-01-12/63/fi@" />
+          <FRBRdate date="2018-01-12" name="Approval" />
+          <FRBRauthor href="#valleala" as="#editor" />
+          <FRBRlanguage language="fi" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/fi/act/2018-01-12/63/fi@/!main.xml" />
+          <FRBRuri value="/akn/fi/act/2018-01-12/63/fi@.xml" />
+          <FRBRdate date="2018-07-28" name="Generation" />
+          <FRBRauthor href="#valleala" as="#editor" />
+        </FRBRManifestation>
+      </identification>
+      <publication eId="publication" date="2018-01-16" name="Suomen säädöskokoelma" showAs="Suomen säädöskokoelma" />
+      <lifecycle source="#valleala">
+        <eventRef eId="e1" date="2018-01-12" type="generation" source="#ro1" />
+      </lifecycle>
+      <workflow source="#valleala">
+        <step date="2017-10-26" by="#lintilä" as="#ekm" outcome="#proc1" href="#he" />
+        <step date="2017-11-07" by="#eduskunta" as="#legislator" outcome="#proc2" />
+        <step date="2017-11-28" by="#liv" outcome="#livl" />
+        <step date="2017-12-13" by="#tav" outcome="#tavm" />
+        <step date="2017-12-13" by="#eduskunta" as="#legislator" outcome="#proc3" />
+        <step date="2017-12-14" by="#eduskunta" as="#legislator" outcome="#proc4" />
+        <step date="2017-12-18" by="#eduskunta" as="#legislator" outcome="#proc5" />
+        <step date="2017-12-20" by="#eduskunta" as="#legislator" outcome="#ev" />
+        <step date="2017-12-21" by="#eduskunta" as="#legislator" outcome="#proc6" />
+        <step date="2017-01-12" by="#niinistö" as="#president" outcome="#vahvistaminen" href="#e1" />
+        <step date="2017-01-28" by="#eduskunta" as="#legislator" outcome="#voimaantulo" />
+        <step date="2017-12-21" by="#editor" outcome="#julkaiseminen" href="#publication" />
+      </workflow>
+      <references source="#valleala">
+        <original eId="ro1" href="/akn/fi/act/2018-01-12/63/fi@/!main" showAs="Original" />
+        <TLCEvent eId="vahvistaminen" href="/akn/fi/event/lain-vahvistaminen" showAs="lain vahvistaminen" />
+        <TLCEvent eId="voimaantulo" href="/akn/fi/event/lain-voimaantulo" showAs="lain voimaantulo" />
+        <TLCEvent eId="julkaiseminen" href="/akn/fi/event/lain-julkaiseminen" showAs="lain julkaiseminen" />
+        <TLCPerson eId="valleala" href="/akn/ontology/person/fi/editors/valleala" showAs="Aija Valleala" />
+        <TLCPerson eId="niinistö" href="/akn/ontology/person/fi/president/niinistö" showAs="Sauli Niinistö" />
+        <TLCPerson eId="lintilä" href="/akn/ontology/person/fi/minister/lintilä" showAs="Mika Lintilä" />
+        <TLCOrganization eId="eduskunta" href="/akn/ontology/organization/fi/parliament" showAs="Eduskunta" />
+        <TLCOrganization eId="tem" href="/akn/ontology/organization/fi/ministry/tem" showAs="Työ- ja elinkeinoministeriö" shortForm="TEM" />
+        <TLCOrganization eId="plm" href="/akn/ontology/organization/fi/ministry/plm" showAs="Puolustusministeriö" shortForm="PLM" />
+        <TLCOrganization eId="pv" href="/akn/ontology/organization/fi/pv" showAs="Puolustusvoimat" shortForm="PV" />
+        <TLCOrganization eId="pääesikunta" href="/akn/ontology/organization/fi/pääesikunta" showAs="Pääesikunta" shortForm="PV" />
+        <TLCOrganization eId="kvtl" href="/akn/ontology/organization/kvtl" showAs="Kansainvälinen televiestintäliitto" />
+        <TLCOrganization eId="kho" href="/akn/ontology/organization/fi/kho" showAs="Korkein hallinto-oikeus" />
+        <TLCOrganization eId="tav" href="/akn/ontology/organization/fi/parliament/tav" showAs="talousvaliokunta" />
+        <TLCOrganization eId="liv" href="/akn/ontology/organization/fi/parliament/liv" showAs="liikenne- ja viestintävalikokunta" />
+        <TLCLocation eId="helsinki" href="/akn/ontology/location/fi/helsinki" showAs="Helsinki" />
+        <TLCRole eId="editor" href="/akn/ontology/role/editor" showAs="Editor" />
+        <TLCRole eId="author" href="/akn/ontology/role/author" showAs="Author" />
+        <TLCRole eId="president" href="/akn/ontology/organisation/fi/president" showAs="Tasavallan Presidentti" />
+        <TLCRole eId="ekm" href="/akn/ontology/organisation/fi/minister/lvm" showAs="Elinkeinoministeri" />
+        <TLCRole eId="legislator" href="/akn/ontology/organisation/fi/legislator" showAs="lainsäätäjä" />
+        <TLCReference eId="rikoslaki" href="/akn/fi/act/1889-12-19/39" name="laki" showAs="rikoslaki" />
+        <TLCReference eId="vahkl" href="/akn/fi/act/1974-05-31/412" name="laki" showAs="vahingonkorvauslaki" />
+        <TLCReference eId="ilmailulaki" href="/akn/fi/act/2014-11-07/864" name="laki" showAs="ilmailulaki" />
+        <TLCReference eId="hl" href="/akn/fi/act/2003-06-06/434" name="laki" showAs="hallintolaki" />
+        <TLCReference eId="alpl" href="/akn/fi/act/1970/616" name="laki" showAs="Laki avaruuslentäjien pelastamisesta ja palauttamisesta sekä avaruusesineiden palauttamisesta" />
+        <TLCReference eId="he" name="hallituksen esitys" href="/akn/fi/he/2017-157" showAs="hallituksen esitys" />
+        <TLCReference eId="livl" name="lausunto" href="/akn/fi/livl/2017-28" showAs="liikenne- ja viestintävaliokunnan lausunto" />
+        <TLCReference eId="tavm" name="mietintö" href="/akn/fi/tavm/2017-23" showAs="talousvaliokunnan mietintö" />
+        <TLCReference eId="ev" name="eduskunnan vastaus" href="/akn/fi/ev/2017-181" showAs="eduskunnan vastaus" />
+        <TLCConcept eId="avaruustoiminta" href="/akn/ontology/concept/avaruustoiminta" showAs="avaruustoiminta" />
+        <TLCConcept eId="avaruusesine" href="/akn/ontology/concept/avaruusesine" showAs="avaruusesine" />
+        <TLCConcept eId="toiminnanharjoittaja" href="/akn/ontology/concept/toiminnanharjoittaja" showAs="toiminnanharjoittaja" />
+        <TLCProcess eId="proc1" href="/akn/ontology/process/hallituksen-esityksen-anto-eduskunnalle" showAs="hallituksen esityksen anto eduskunnalle" />
+        <TLCProcess eId="proc2" href="/akn/ontology/process/lähetekeskustelu" showAs="lähetekeskustelu" />
+        <TLCProcess eId="proc3" href="/akn/ontology/process/mietinnön-pöydällepano" showAs="mietinnön pöydällepano" />
+        <TLCProcess eId="proc4" href="/akn/ontology/process/ensimmäinen-käsittely" showAs="ensimmäinen käsittely" />
+        <TLCProcess eId="proc5" href="/akn/ontology/process/toinen-käsittely" showAs="toinen käsittely" />
+        <TLCProcess eId="proc6" href="/akn/ontology/process/eduskunnan vastauksen toimittaminen" showAs="eduskunnan vastauksen toimittaminen" />
+      </references>
+      <notes source="#valleala">
+        <note eId="note_1">
+          <p>
+            <ref href="#he">HE 157/2017</ref>
+          </p>
+          <p>
+            <ref href="#tavm">TaVM 23/2017</ref>
+          </p>
+          <p>
+            <ref href="#ev">EV 181/2017</ref>
+          </p>
+        </note>
+      </notes>
+    </meta>
+    <preface>
+      <p>
+        <docNumber>
+          63/2018
+        </docNumber>
+      </p>
+      <p>
+        <docTitle>
+          <docType>Laki</docType>
+          avaruustoiminnasta
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula eId="formula_1" name="enactingFormula">
+        <p>
+          <organization refersTo="#eduskunta">Eduskunnan</organization>
+          päätöksen mukaisesti säädetään:
+        </p>
+      </formula>
+    </preamble>
+    <body>
+      <chapter eId="chp_1">
+        <num>1 luku</num>
+        <heading eId="chp_1__heading">Yleiset säännökset</heading>
+        <section eId="sec_1">
+          <num>1 §</num>
+          <heading eId="sec_1__heading">Soveltamisala</heading>
+          <subsection eId="sec_1__subsec_1">
+            <content>
+              <p>
+                Tätä lakia sovelletaan Suomen valtion alueella harjoitettavaan avaruustoimintaan.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_1__subsec_2">
+            <intro eId="sec_1__subsec_2__intro">
+              <p>
+                Lakia sovelletaan lisäksi Suomen valtion alueen ulkopuolella harjoitettavaan avaruustoimintaan, jos avaruustoimintaa:
+              </p>
+            </intro>
+            <list eId="sec_1__subsec_2__list_1">
+              <paragraph eId="sec_1__subsec_2__para_1">
+                <num>1)</num>
+                <content>
+                  <p>
+                    harjoitetaan Suomessa rekisteröidyssä aluksessa; tai
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_1__subsec_2__para_2">
+                <num>2)</num>
+                <content>
+                  <p>
+                    sitä harjoittaa Suomen kansalainen tai oikeushenkilö, jolla on Suomessa kotipaikka. 
+                  </p>
+                </content>
+              </paragraph>
+            </list>
+          </subsection>
+          <subsection eId="sec_1__subsec_3">
+            <content>
+              <p>
+                Suomen ilmatilassa liikkuvaan avaruusesineeseen sovelletaan soveltuvin osin siviiliilmailua koskevia säännöksiä.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_1__subsec_4">
+            <content>
+              <p>
+                Suomen rikosoikeuden soveltamisalasta säädetään
+                <ref href="/akn/fi/act/1889-12-19/39#chp_1" refersTo="#rikoslaki"> rikoslain (39/1889) 1 luvussa</ref>
+                .
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_2">
+          <num>2 §</num>
+          <heading eId="sec_2__heading">Toimivaltainen viranomainen</heading>
+          <subsection eId="sec_2__subsec_1">
+            <content>
+              <p>
+                Tämän lain mukaisen toiminnan yleinen ohjaus, seuranta ja kehittäminen kuuluvat
+                <organization refersTo="#tem">työ- ja elinkeinoministeriölle</organization>
+                .
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_3">
+          <num>3 §</num>
+          <heading eId="sec_3__heading">Lain soveltaminen puolustushallinnossa</heading>
+          <subsection eId="sec_3__subsec_1">
+            <content>
+              <p>
+                Tämän lain
+                <mref>
+                  <ref href="#sec_5">5</ref>
+                  ,
+                  <ref href="#sec_8">8</ref>
+                  ,
+                  <ref href="#sec_11">11</ref>
+                  ,
+                  <ref href="#sec_14">14</ref>
+                  ,
+                  <ref href="#sec_15">15</ref>
+                  §:ää
+                </mref>
+                ei sovelleta puolustusvoimien harjoittamaan avaruustoimintaan.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_3__subsec_2">
+            <content>
+              <p>
+                <organization refersTo="#plm">Puolustusministeriölle</organization>
+                kuuluu
+                <organization refersTo="#pv"> puolustusvoimien</organization>
+                avaruustoiminnan yleinen ohjaus ja valvonta.
+                <organization refersTo="#pääesikunta">Pääesikunta</organization>
+                valvoo tämän lain ja sen nojalla annettujen säännösten noudattamista
+                <organization refersTo="#pv">puolustusvoimissa</organization>
+                .
+                <organization refersTo="#pääesikunta">Pääesikunta</organization>
+                toimittaa kerran vuodessa raportin puolustusvoimien harjoittamasta avaruustoiminnasta
+                <organization refersTo="#plm">puolustusministeriölle</organization>
+                ja
+                <organization refersTo="#tem">työ- ja elinkeinoministeriölle</organization>
+                .
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_3__subsec_3">
+            <content>
+              <p>
+                <organization refersTo="#pv">Puolustusvoimien</organization>
+                avaruustoiminnassa on varmistettava toiminnan tekniset edellytykset ja toiminnan turvallisuus.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_3__subsec_4">
+            <content>
+              <p>
+                <organization refersTo="#pv">Puolustusvoimien</organization>
+                avaruustoiminnan valvonnasta voidaan säätää tarkemmin
+                <organization refersTo="#plm">puolustusministeriön</organization>
+                asetuksella.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_4">
+          <num>4 §</num>
+          <heading eId="sec_4__heading">Määritelmät</heading>
+          <subsection eId="sec_4__subsec_1">
+            <intro eId="sec_4__subsec_1__intro">
+              <p>
+                Tässä laissa tarkoitetaan:
+              </p>
+            </intro>
+            <list eId="sec_4__subsec_1__list">
+              <paragraph eId="sec_2__subsec_1__para_1">
+                <num>1)</num>
+                <content>
+                  <p>
+                    <def refersTo="#avaruustoiminta">
+                      <i>avaruustoiminnalla</i>
+                    </def>
+                    avaruusesineen lähettämistä avaruuteen, avaruusesineen operointia ja muuta määräysvaltaa siihen avaruudessa sekä avaruusesineen palauttamista ja palautumista maahan;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_2__subsec_1__para_2">
+                <num>2)</num>
+                <content>
+                  <p>
+                    <def refersTo="#avaruusesine">
+                      <i>avaruusesineellä</i>
+                    </def>
+                    esinettä, joka on lähetetty tai joka on tarkoitus lähettää avaruuteen, mukaan lukien tällaisen esineen osat, ja laitetta, jota on käytetty tai jota on tarkoitus käyttää esineen lähettämiseksi avaruuteen, mukaan lukien tällaisen laitteen osat;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_2__subsec_1__para_3">
+                <num>2)</num>
+                <content>
+                  <p>
+                    <def refersTo="#toiminnanharjoittaja">
+                      <i>toiminnanharjoittajalla</i>
+                    </def>
+                    luonnollista henkilöä ja oikeushenkilöä, joka harjoittaa tai jonka on tarkoitus harjoittaa avaruustoimintaa tai joka tosiasiallisesti vastaa toiminnasta.
+                  </p>
+                </content>
+              </paragraph>
+            </list>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter eId="chp_2">
+        <num>2 luku</num>
+        <heading eId="chp_2__heading">Toiminnanharjoittajan velvollisuudet</heading>
+        <section eId="sec_5">
+          <num>5 §</num>
+          <heading eId="sec_5__heading">Avaruustoiminnan luvanvaraisuus ja luvan myöntämisen edellytykset</heading>
+          <subsection eId="sec_5__subsec_1">
+            <content>
+              <p>
+                Avaruustoimintaa saa harjoittaa vain, jos
+                <organization refersTo="#tem">työ- ja elinkeinoministeriö</organization>
+                on antanut etukäteen luvan toiminnalle. Lupa voidaan myöntää toistaiseksi tai määräajaksi. Lupaan voidaan liittää avaruustoiminnan turvallisen harjoittamisen ja valvonnan kannalta tarpeellisia ehtoja.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_5__subsec_2">
+            <intro eId="sec_5__subsec_2__intro">
+              <p>
+                Luvan myöntämisen edellytyksenä on, että:
+              </p>
+            </intro>
+            <list eId="sec_5__subsec_2__list">
+              <paragraph eId="sec_5__subsec_2__para_1">
+                <num>1)</num>
+                <content>
+                  <p>
+                    toiminnanharjoittaja on luotettavaja hänellä on tarvittava tekninena siantuntemus ja taloudelliset edellytykset harjoittaa avaruustoimintaa;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_5__subsec_2__para_2">
+                <num>2)</num>
+                <content>
+                  <p>
+                    toiminnanharjoittaja on toimittanut ministeriölle arvion avaruustoiminnan riskeistä ja tämän arvion mukaan toiminnasta ei ole erityistä vaaraa ihmisille tai omaisuudelle eikä yleiselle turvallisuudelle;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_5__subsec_2__para_3">
+                <num>3)</num>
+                <content>
+                  <p>
+                    toiminnanharjoittaja pyrkii
+                    <ref href="#sec_10">10 §:n</ref>
+                    mukaisesti estämään avaruusromun syntymisen sekä haitalliset vaikutukset ympäristöön maan pinnalla, ilmakehässä ja avaruudessa;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_5__subsec_2__para_4">
+                <num>4)</num>
+                <content>
+                  <p>
+                    toiminnanharjoittajalla on suunnitelma avaruustoiminnan lopettamisesta ja siihen liittyvistä toimenpiteistä;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_5__subsec_2__para_5">
+                <num>5)</num>
+                <content>
+                  <p>
+                    avaruustoiminta ei ole ristiriidassa kansallisten turvallisuusetujen,Suomen kansainvälisten velvoitteiden tai Suomen ulkopoliittisten etujen kanssa;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_5__subsec_2__para_6">
+                <num>6)</num>
+                <content>
+                  <p>
+                    toiminnanharjoittaja täyttää
+                    <ref href="#sec_8">8 §:ssä</ref>
+                    säädetyt vakuuttamista koskevat vaatimukset;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_5__subsec_2__para_7">
+                <num>7)</num>
+                <content>
+                  <p>
+                    toiminnanharjoittaja noudattaa
+                    <organization refersTo="#kvtl">Kansainvälisen televiestintäliiton</organization>
+                    voimassa olevia sääntöjä;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_5__subsec_2__para_8">
+                <num>8)</num>
+                <content>
+                  <p>
+                    toiminnanharjoittaja esittää selvityksen voimassa olevien vientivalvontasäännösten noudattamisesta.
+                  </p>
+                </content>
+              </paragraph>
+            </list>
+          </subsection>
+          <subsection eId="sec_5__subsec_3">
+            <content>
+              <p>
+                Toiminnanharjoittajan on lupahakemuksessaan esitettävä lupaharkinnan kannalta tarpeellinen ja luotettava selvitys
+                <ref href="#sec_5__subsec_2">2 momentissa</ref>
+                säädettyjen edellytysten täyttymisestä sekä avaruusesineen omistussuhteista.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_5__subsec_4">
+            <content>
+              <p>
+                Tarkempia säännöksiä luvan hakemisesta ja lupahakemuksessa annettavista tiedoista ja asiakirjoista voidaan antaa
+                <organization refersTo="#tem">työ- ja elinkeinoministeriön</organization>
+                asetuksella.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_6">
+          <num>6 §</num>
+          <heading eId="sec_6__heading">Avaruusesineiden rekisteröinti</heading>
+          <subsection eId="sec_6__subsec_1">
+            <content>
+              <p>
+                <organization refersTo="#tem">Työ- ja elinkeinoministeriö</organization>
+                ylläpitää julkista avaruusesineiden rekisteriä.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_6__subsec_2">
+            <intro eId="sec_6__subsec_2__intro">
+              <p>
+                Toiminnanharjoittajan on ilmoitettava
+                <organization refersTo="#tem">työ- ja elinkeinoministeriölle</organization>
+                maan kiertoradalle tai muualle avaruuteen lähetetystä avaruusesineestä seuraavat tiedot:
+              </p>
+            </intro>
+            <list eId="sec_6__subsec_2__list">
+              <paragraph eId="sec_6__subsec_2__para_1">
+                <num>1)</num>
+                <content>
+                  <p>
+                    lähettäjävaltio tai -valtiot;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_6__subsec_2__para_2">
+                <num>2)</num>
+                <content>
+                  <p>
+                    toiminnanharjoittajan nimi;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_6__subsec_2__para_3">
+                <num>3)</num>
+                <content>
+                  <p>
+                    avaruusesineen tunniste tai rekisterinumero;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_6__subsec_2__para_4">
+                <num>4)</num>
+                <content>
+                  <p>
+                    avaruusesineen yleinen tarkoitus;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_6__subsec_2__para_5">
+                <num>5)</num>
+                <content>
+                  <p>
+                    lähettämisen ajankohta, lähettämispaikka ja lähettämisväline;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_6__subsec_2__para_6">
+                <num>6)</num>
+                <intro eId="sec_6__subsec_2__para_6__intro">
+                  <p>
+                    avaruusesineen liikeradan parametrit, joita ovat:
+                  </p>
+                </intro>
+                <list eId="sec_6__subsec_2__para_6__list">
+                  <subparagraph eId="sec_6__subsec_2__para_6__subpara_1">
+                    <num>a)</num>
+                    <content>
+                      <p>kiertoaika;</p>
+                    </content>
+                  </subparagraph>
+                  <subparagraph eId="sec_6__subsec_2__para_6__subpara_2">
+                    <num>b)</num>
+                    <content>
+                      <p>kaltevuuskulma;</p>
+                    </content>
+                  </subparagraph>
+                  <subparagraph eId="sec_6__subsec_2__para_6__subpara_3">
+                    <num>c)</num>
+                    <content>
+                      <p>etäpiste (apogeum);</p>
+                    </content>
+                  </subparagraph>
+                  <subparagraph eId="sec_6__subsec_2__para_6__subpara_4">
+                    <num>d)</num>
+                    <content>
+                      <p>lähipiste (perigeum).</p>
+                    </content>
+                  </subparagraph>
+                </list>
+              </paragraph>
+            </list>
+          </subsection>
+          <subsection eId="sec_6__subsec_3">
+            <content>
+              <p>
+                Tarkempia säännöksiä avaruusesineiden rekisteristä ja rekisteriin merkittävistä tiedoista voidaan antaa
+                <organization refersTo="#tem">työ- ja elinkeinoministeriön</organization>
+                asetuksella.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_7">
+          <num>7 §</num>
+          <heading eId="sec_7__heading">Vastuu vahingoista ja valtion takautumisoikeus</heading>
+          <subsection eId="sec_7__subsec_1">
+            <content>
+              <p>
+                Avaruusesineen aiheuttama vahinko korvataan valtion varoista toiminnanharjoittajalle aiheutuneita vahinkoja lukuun ottamatta.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_7__subsec_2">
+            <content>
+              <p>
+                Valtiolla on oikeus periä vahinkoa kärsineelle suorittamansa korvaus toiminnanharjoittajalta siltä osin kuin tämä olisi
+                <ref href="/akn/fi/act/1974-05-31/412" refersTo="#vahkl">vahingonkorvauslain (412/1974)</ref>
+                nojalla ollut vastuussa vahingosta vahinkoa kärsineelle.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_7__subsec_3">
+            <content>
+              <p>
+                Jos vahinko on aiheutunut maan pinnalla taikka lennossa olevalle ilma-alukselle, sen matkustajalle tai sen miehistöön kuuluvalle, valtiolla on
+                <ref href="#sec_7__subsec_2">2 momentista</ref>
+                poiketen oikeus periä maksamansa korvaus toiminnanharjoittajalta, vaikka tämä ei olisi aiheuttanut vahinkoa
+                <ref href="/akn/fi/act/1974-05-31/412#chp_2__sec_1__subsec_1" refersTo="#vahkl">vahingonkorvauslain 2 luvun 1 §:n 1 momentin</ref>
+                mukaisesti tahallisesti tai tuottamuksesta.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_7__subsec_4">
+            <content>
+              <p>
+                Edellä
+                <ref href="#sec_7__subsec_3">3 momentissa</ref>
+                säädetyn valtion takautumisoikeuden enimmäismäärä on 60 miljoonaa euroa. Enimmäismäärää koskevaa säännöstä ei kuitenkaan sovelleta, jos toiminnanharjoittaja on laiminlyönyt noudattaa tätä lakia tai
+                <ref href="#sec_5">5 §:n</ref>
+                nojalla annetun luvan ehtoja.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_8">
+          <num>8 §</num>
+          <heading eId="sec_8__heading">Vakuuttamisvelvollisuus</heading>
+          <subsection eId="sec_8__subsec_1">
+            <content>
+              <p>
+                Toiminnanharjoittajan tulee ottaa vakuutus kolmansille osapuolille avaruustoiminnasta aiheutuvien vahinkojen varalta vähintään
+                <ref href="#sec_7__subsec_4">7 §:n 4 momentissa</ref>
+                säädettyyn valtion takautumisoikeuden enimmäismäärään saakka.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_8__subsec_2">
+            <intro eId="sec_8__subsec_2__intro">
+              <p>
+                <organization refersTo="#tem">Työ- ja elinkeinoministeriö</organization>
+                voi olla vaatimatta
+                <ref href="#sec_8__subsec_1">1 momentissa</ref>
+                tarkoitettua vakuutusta, jos:
+              </p>
+            </intro>
+            <list eId="sec_8__subsec_2__list">
+              <paragraph eId="sec_8__subsec_2__para_1">
+                <num>1)</num>
+                <content>
+                  <p>
+                    laukaisuyhtiön vakuutus tai muu vastaava vakuutus kattaa olennaisilta osin toiminnanharjoittajan ja valtion vastuun avaruustoiminnan kolmansille osapuolille aiheuttamista vahingoista; tai
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_8__subsec_2__para_2">
+                <num>2)</num>
+                <content>
+                  <p>
+                    <ref href="#sec_5__subsec_2__para_2">5 §:n 2 momentin 2 kohdassa</ref>
+                    tarkoitetun avaruustoiminnan riskeistä tehdyn arvion perusteella riski avaruustoiminnan aiheuttamista vahingoista maan pinnalla, ilmassa ja avaruudessa on
+                    <organization refersTo="#tem">työ- ja elinkeinoministeriön</organization>
+                    hyväksyttävissä.
+                  </p>
+                </content>
+              </paragraph>
+            </list>
+          </subsection>
+          <subsection eId="sec_8__subsec_3">
+            <content>
+              <p>
+                Tarkempia säännöksiä
+                <ref href="#sec_8__subsec_1">1 momentissa</ref>
+                tarkoitetusta vakuutuksesta ja
+                <ref href="#sec_8__subsec_2">2 momentissa</ref>
+                tarkoitetuista edellytyksistä voidaan antaa
+                <organization refersTo="#tem">työ- ja elinkeinoministeriön</organization>
+                asetuksella.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_9">
+          <num>9 §</num>
+          <heading eId="sec_9__heading">Avaruustoiminnan turvallinen harjoittaminen</heading>
+          <subsection eId="sec_9__subsec_1">
+            <content>
+              <p>
+                Avaruustoimintaa tulee harjoittaa siten, että siitä ei aiheudu erityistä vaaraa ihmisille, omaisuudelle tai yleiselle turvallisuudelle. Avaruusesineen lähettämiseen, operointiin tai palauttamiseen osallistuvalla henkilöllä tulee olla tehtävän edellyttämä osaaminen ja kokemus hallita vastuullaan olevia toimintoja.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_9__subsec_2">
+            <content>
+              <p>
+                Lentoturvallisuudelle vaaraa aiheuttavasta toiminnasta säädetään
+                <ref href="/akn/fi/act/2014-11-07/864#sec_159" refersTo="#ilmailulaki">ilmailulain (864/2014) 159 §:ssä</ref>
+                .
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_9__subsec_3">
+            <content>
+              <p>
+                Tarkempia säännöksiä avaruustoiminnan turvallisesta harjoittamisesta ja turvallisuuteen vaikuttavien laitteiden ja toimintojen sekä henkilöstön osaamisen ja kokemuksen vähimmäisvaatimuksista voidaan antaa
+                <organization refersTo="#tem">työ- ja elinkeinoministeriön</organization>
+                asetuksella.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_10">
+          <num>10 §</num>
+          <heading eId="sec_10__heading">Ympäristönsuojelu ja avaruusromu</heading>
+          <subsection eId="sec_10__subsec_1">
+            <content>
+              <p>
+                Avaruustoimintaa tulee harjoittaa ympäristön ja avaruuden käytön kannalta kestävällä tavalla. Toiminnanharjoittajan on avaruustoiminnan harjoittamista koskevassa lupahakemuksessa arvioitava toiminnan ympäristövaikutukset maan pinnalla, ilmakehässä ja avaruudessa sekä esitettävä suunnitelma toimenpiteistä haitallisten ympäristövaikutusten torjumiseksi ja vähentämiseksi. Lupahakemuksessa on ilmoitettava avaruusesineessä mahdollisesti käytettävistä ydinaineista ja muista radioaktiivisista aineista.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_10__subsec_2">
+            <content>
+              <p>
+                Toiminnanharjoittajan tulee yleisesti hyväksyttyjen kansainvälisten ohjeiden mukaisesti pyrkiä huolehtiman siitä, että avaruustoiminnasta ei synny avaruusromua. Toiminnanharjoittajan tulee erityisesti rajoittaa avaruusromun syntymistä avaruusesineen normaalin toiminnan yhteydessä, pienentää riskejä avaruusesineen rikkoutumisesta ja törmäyksistä avaruudessa sekä pyrkiä siirtämään tehtävänsä päättänyt avaruusesine vähemmän käytetylle kiertoradalle tai ilmakehään.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_10__subsec_3">
+            <content>
+              <p>
+                Tarkempia säännöksiä ympäristövaikutusten arvioinnista ja tarvittavista toimenpiteistä avaruusromun syntymisen välttämiseksi voidaan antaa
+                <organization refersTo="#tem">työ- ja elinkeinoministeriön</organization>
+                asetuksella.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_11">
+          <num>11 §</num>
+          <heading eId="sec_11__heading">Avaruusesineiden ja avaruustoiminnan siirtäminen toiselle</heading>
+          <subsection eId="sec_11__subsec_1">
+            <content>
+              <p>
+                Avaruusesinettä ja avaruustoimintaa koskevan tosiasiallisen määräysvallan saa siirtää toiselle toiminnanharjoittajalle tai omistajalle, vain jos
+                <organization refersTo="#tem">työ- ja elinkeinoministeriö</organization>
+                on hyväksynyt siirron etukäteen.
+                <organization refersTo="#tem">Ministeriö</organization>
+                voi hyväksyä siirron, jos
+                <ref href="#sec_5__subsec_2">5 §:n 2 momentissa</ref>
+                säädetyt luvan myöntämisen edellytykset täyttyvät.
+                <organization refersTo="#tem">Ministeriö</organization>
+                voi liittää hyväksymispäätökseensä avaruustoiminnan turvallisen harjoittamisen ja valvonnan kannalta tarpeellisia ehtoja.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_11__subsec_2">
+            <content>
+              <p>
+                Jos
+                <ref href="#sec_11__subsec_1">1 momentissa</ref>
+                tarkoitettu siirto tehdään toiminnanharjoittajalle tai omistajalle, jonka kotipaikka on toisessa valtiossa,
+                <organization refersTo="#tem">työ- ja elinkeinoministeriö</organization>
+                voi edellyttää, että kyseinen valtio tekee Suomen valtion kanssa etukäteen sopimuksen vastuusta avaruusesineen aiheuttamasta vahingosta.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_11__subsec_3">
+            <content>
+              <p>
+                Tarkempia säännöksiä
+                <ref href="#sec_11__subsec_1">1 momentissa</ref>
+                tarkoitetun hyväksynnän hakemisesta voidaan antaa
+                <organization refersTo="#tem">työ- ja elinkeinoministeriön</organization>
+                asetuksella.
+              </p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+      <chapter eId="chp_3">
+        <num>3 luku</num>
+        <heading eId="chp_3__heading">Muutokset ja valvonta</heading>
+        <section eId="sec_12">
+          <num>12 §</num>
+          <heading eId="sec_12__heading">Tiedonantovelvollisuus</heading>
+          <subsection eId="sec_12__subsec_1">
+            <content>
+              <p>
+                Toiminnanharjoittajan on viipymättä annettava
+                <organization refersTo="#tem">työ- ja elinkeinoministeriölle</organization>
+                tiedot muutoksista, jotka voivat vaikuttaa
+                <ref href="#sec_5__subsec_2">5 §:n 2 momentissa</ref>
+                säädettyihin luvan myöntämisen edellytyksiin tai luvan ehtoihin taikka avaruusesineiden rekisteriin merkittyihin tietoihin. Toiminnanharjoittajan on ilmoitettava myös avaruusesineen omistussuhteiden muutoksista ja avaruustoiminnan lopettamisesta viipymättä.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_12__subsec_2">
+            <content>
+              <p>
+                Tarkempia säännöksiä annettavista tiedoista voidaan antaa
+                <organization refersTo="#tem">työ- ja elinkeinoministeriön</organization>
+                asetuksella.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_13">
+          <num>13 §</num>
+          <heading eId="sec_13__heading">Luvan muuttaminen ja peruuttaminen</heading>
+          <subsection eId="sec_13__subsec_1">
+            <intro eId="sec_13__subsec_1__intro">
+              <p>
+                <organization refersTo="#tem">Työ- ja elinkeinoministeriö</organization>
+                voi muuttaa avaruustoiminnan harjoittamiseen myönnettyä lupaa tai peruuttaa luvan, jos:
+              </p>
+            </intro>
+            <list eId="sec_13__subsec_1__list">
+              <paragraph eId="sec_13__subsec_1__para_1">
+                <num>1)</num>
+                <content>
+                  <p>
+                    lupahakemuksessa tai sen liitteissä on annettu virheellisiä tai puutteellisia tietoja, jotka ovat olennaisesti vaikuttaneet lupaharkintaan;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_13__subsec_1__para_2">
+                <num>2)</num>
+                <content>
+                  <p>
+                    toiminnanharjoittaja ei enää täytä olennaisia
+                    <ref href="#sec_5__subsec_2">5 §:n 2 momentissa</ref>
+                    säädettyjä luvan myöntämisen edellytyksiä;
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_13__subsec_1__para_3">
+                <num>3)</num>
+                <content>
+                  <p>
+                    toiminnanharjoittaja on olennaisella tavalla laiminlyönyt tai rikkonut tässä laissa säädettyä velvollisuutta tai rajoitusta taikka luvan ehtoja; tai
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_13__subsec_1__para_4">
+                <num>4)</num>
+                <content>
+                  <p>
+                    luvan muuttaminen tai peruuttaminen on välttämätöntä Suomen kansainvälisten sitoumusten tai velvoitteiden vuoksi.
+                  </p>
+                </content>
+              </paragraph>
+            </list>
+          </subsection>
+          <subsection eId="sec_13__subsec_2">
+            <content>
+              <p>
+                <organization refersTo="#tem">Ministeriön</organization>
+                on ennen
+                <ref href="#sec_13__subsec_1">1 momentissa</ref>
+                tarkoitetun päätöksen tekemistä asetettava toiminnanharjoittajalle määräaika korjata puute, virhe, rikkomus tai laiminlyönti.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_13__subsec_3">
+            <content>
+              <p>
+                <organization refersTo="#tem">Ministeriö</organization>
+                voi asettaa luvan muuttamista tai peruuttamista koskevassa päätöksessään tarpeellisia ehtoja avaruustoiminnan turvallisesta jatkamisesta tai lopettamisesta. Peruuttaessaan luvan ministeriö voi myös määrätä, että toiminnanharjoittajan on siirrettävä avaruustoiminta toisen toiminnanharjoittajan jatkettavaksi.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_14">
+          <num>14 §</num>
+          <heading eId="sec_14__heading">Valvonta</heading>
+          <subsection eId="sec_14__subsec_1">
+            <content>
+              <p>
+                <organization refersTo="#tem">Työ- ja elinkeinoministeriö</organization>
+                valvoo tämän lain ja sen nojalla annettujen säännösten noudattamista.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_14__subsec_2">
+            <content>
+              <p>
+                Toiminnanharjoittajan on toimitettava vuosittain
+                <organization refersTo="#tem">työ- ja elinkeinoministeriölle</organization>
+                raportti harjoittamastaan avaruustoiminnasta.
+                <organization refersTo="#tem">Ministeriöllä</organization>
+                on oikeus saada toiminnanharjoittajalta myös muut tarpeelliset tiedot valvontaa varten.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_14__subsec_3">
+            <content>
+              <p>
+                Tarkempia säännöksiä
+                <ref href="#sec_14__subsec_2">2 momentissa</ref>
+                tarkoitetun raportin sisällöstä ja valvontaa varten tarvittavista tiedoista voidaan antaa
+                <organization refersTo="#tem">työ- ja elinkeinoministeriön</organization>
+                asetuksella.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_15">
+          <num>15 §</num>
+          <heading eId="sec_15__heading">Tarkastusoikeus</heading>
+        </section>
+        <subsection eId="sec_15__subsec_1">
+          <content>
+            <p>
+              <organization refersTo="#tem">Työ- ja elinkeinoministeriöllä</organization>
+              on oikeus suorittaa
+              <ref href="#sec_14">14 §:n</ref>
+              mukaisessa valvonnassa tarpeellisia toiminnanharjoittajan avaruustoimintaan ja avaruusesineeseen kohdistuvia tarkastuksia.
+              <organization refersTo="#tem">Ministeriöllä</organization>
+              on oikeus teettää tarkastus riippumattomalla asiantuntijalla. Asiantuntijaan sovelletaan rikosoikeudellista virkavastuuta koskevia säännöksiä hänen hoitaessaan tämän pykälän mukaisia tehtäviä. Vahingonkorvausvastuusta säädetään
+              <ref href="/akn/fi/act/1974-05-31/412" refersTo="#vahkl">vahingonkorvauslaissa</ref>
+              .
+            </p>
+          </content>
+        </subsection>
+        <subsection eId="sec_15__subsec_2">
+          <content>
+            <p>
+              Tarkastusta suorittavalla virkamiehellä tai riippumattomalla asiantuntijalla on oikeus päästä tarkastuksen edellyttämässä laajuudessa toiminnanharjoittajan hallinnassa tai käytössä oleviin avaruustoiminnan harjoittamiseen käytettäviin tai käytettyihin tiloihin ja muille alueille, joilla on merkitystä avaruustoiminnan valvonnassa, sekä saada tutkittavakseen valvontatehtävän kannalta tarpeelliset asiakirjat ja tiedot sen estämättä, mitä tietojen salassapidosta säädetään. Tarkastusta ei saa suorittaa pysyväisluonteiseen asumiseen käytetyissä tiloissa.
+            </p>
+          </content>
+        </subsection>
+        <subsection eId="sec_15__subsec_3">
+          <content>
+            <p>
+              Tarkastuksessa on noudatettava, mitä
+              <ref href="/akn/fi/act/2003-06-06/434#sec_39" refersTo="#hl">hallintolain (434/2003) 39 §:ssä</ref>
+              säädetään.
+            </p>
+          </content>
+        </subsection>
+      </chapter>
+      <chapter eId="chp_4">
+        <num>4 luku</num>
+        <heading eId="chp_4__heading">Erinäiset säännökset</heading>
+        <section>
+          <num>16 §</num>
+          <heading eId="sec_16">Löydetyt avaruusesineet</heading>
+          <subsection eId="sec_16__subsec_1">
+            <content>
+              <p>
+                Jos joku löytää esineen, jonka voidaan epäillä olevan peräisin avaruusesineestä, on löydöstä viipymättä ilmoitettava lähimmälle poliisi-, rajavartio- tai sotilasviranomaiselle. Esinettä ei saa viedä pois eikä liikuttaa ilman edellä mainitun viranomaisen lupaa, ellei siihen ole erittäin painavia syitä. Esine on vaadittaessa luovutettava edellä mainitulle viranomaiselle.
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_16__subsec_2">
+            <content>
+              <p>
+                Edellä
+                <ref href="#sec_16__subsec_1">1 momentissa</ref>
+                tarkoitetusta ilmoituksen tekemisestä tai esineen talteen ottamisesta, säilyttämisestä, luovuttamisesta tai palauttamisesta aiheutuneet kustannukset korvataan valtion varoista.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_17">
+          <num>17 §</num>
+          <heading eId="sec_17__heading">Lausunnot</heading>
+          <subsection eId="sec_17__subsec_1">
+            <content>
+              <p>
+                <organization refersTo="#tem">Työ- ja elinkeinoministeriö</organization>
+                voi pyytää
+                <mref>
+                  <ref href="#sec_5">5 §:ssä</ref>
+                  ,
+                  <ref href="#sec_8__subsec_2">8 §:n 2 momentissa</ref>
+                  ja
+                  <ref href="#sec_11">11 §:ssä</ref>
+                </mref>
+                tarkoitettuja tehtäviään suorittaessaan tarpeellisia lausuntoja muilta viranomaisilta ja erityistä asiantuntemusta edustavilta riippumattomilta asiantuntijoilta. Ministeriö voi pyytää lausuntoja myös arvioidessaan edellytyksiä luvan muuttamiselle tai peruuttamiselle
+                <ref href="#sec_13">13 §:n</ref>
+                nojalla tai suorittaessaan
+                <ref href="#sec_14">14 §:ssä</ref>
+                tarkoitettua valvontaa.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_18">
+          <num>18 §</num>
+          <heading eId="sec_18__heading">Viranomaisen tiedonsaantioikeus</heading>
+          <subsection eId="sec_18__subsec_1">
+            <content>
+              <p>
+                <organization refersTo="#tem">Työ- ja elinkeinoministeriöllä</organization>
+                on salassapitosäännösten estämättä oikeus saada muilta viranomaisilta tehtäviensä hoitamiseksi välttämättömiä tietoja toiminnanharjoittajaa koskevista seikoista.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_19">
+          <num>19 §</num>
+          <heading eId="sec_19__heading">Uhkasakko</heading>
+          <subsection eId="sec_19__subsec_1">
+            <content>
+              <p>
+                <organization refersTo="#tem">Työ- ja elinkeinoministeriö</organization>
+                voi tehostaa
+                <ref href="#sec_13__subsec_3">13 §:n 3 momentin</ref>
+                nojalla antamaansa määräystä uhkasakolla.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_20">
+          <num>20 §</num>
+          <heading eId="sec_20__heading">Muutoksenhaku</heading>
+          <subsection eId="sec_20__subsec_1">
+            <content>
+              <p>
+                <organization refersTo="#tem">Työ- ja elinkeinoministeriön</organization>
+                tämän lain nojalla tekemään päätökseen saa hakea muutosta valittamalla hallinto-oikeuteen. Hallinto-oikeuden päätökseen saa hakea muutosta valittamalla vain, jos
+                <organization refersTo="#kho">korkein hallinto-oikeus</organization>
+                myöntää valitusluvan.
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_21">
+          <num>21 §</num>
+          <heading eId="sec_21__heading">Rangaistussäännökset</heading>
+          <subsection eId="sec_21__subsec_1">
+            <intro eId="sec_21__subsec_1__intro">
+              <p>
+                Joka tahallaan tai törkeästä huolimattomuudesta
+              </p>
+            </intro>
+            <list eId="sec_21__subsec_1__list">
+              <paragraph eId="sec_21__subsec_1__para_1">
+                <num>1)</num>
+                <content>
+                  <p>
+                    harjoittaa avaruustoimintaa ilman
+                    <ref href="#sec_5">5 §:ssä</ref>
+                    tarkoitettua lupaa tai
+                    <ref href="#sec_11">11 §:ssä</ref>
+                    tarkoitettua hyväksyntää,
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_21__subsec_1__para_2">
+                <num>2)</num>
+                <content>
+                  <p>
+                    siirtää avaruusesinettä tai avaruustoimintaa koskevan tosiasiallisen määräysvallan toiselle toiminnanharjoittajalle tai omistajalle ilman
+                    <ref href="#sec_11">11 §:ssä</ref>
+                    tarkoitettua hyväksyntää taikka
+                  </p>
+                </content>
+              </paragraph>
+              <paragraph eId="sec_21__subsec_1__para_3">
+                <num>3)</num>
+                <content>
+                  <p>
+                    laiminlyö
+                    <mref>
+                      <ref href="#sec_8">8 §:ssä</ref>
+                      säädetyn velvollisuuden ottaa vakuutus taikka
+                      <ref href="#sec_12">12 §:ssä</ref>
+                      tai
+                      <ref href="#sec_14__subsec_2">14 §:n 2 momentissa</ref>
+                    </mref>
+                    tarkoitetun tiedonantovelvollisuuden, on tuomittava, jollei teko ole vähäinen eikä siitä muualla laissa säädetä ankarampaa rangaistusta, avaruustoimintarikkomuksesta sakkoon.
+                  </p>
+                </content>
+              </paragraph>
+            </list>
+          </subsection>
+          <subsection eId="sec_21__subsec_2">
+            <content>
+              <p>
+                Rangaistus rekisterimerkintärikoksesta säädetään
+                <mref>
+                  <ref href="/akn/fi/act/1889-12-19/39#chp_16__sec_7" refersTo="#rikoslaki">rikoslain 16 luvun 7 §:ssä</ref>
+                  ja rangaistus väärän todistuksen antamisesta viranomaiselle
+                  <ref href="/akn/fi/act/1889-12-19/39#chp_16__sec_8" refersTo="#rikoslaki">16 luvun 8 §:ssä</ref>
+                </mref>
+                .
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section eId="sec_22">
+          <num>22 §</num>
+          <heading eId="sec_22__heading">Voimaantulo</heading>
+          <subsection eId="sec_22__subsec_1">
+            <content>
+              <p>
+                Tämä laki tulee voimaan
+                <date date="2018-01-23">23 päivänä tammikuuta 2018</date>
+                .
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_22__subsec_2">
+            <content>
+              <p>
+                Lailla kumotaan
+                <ref href="/akn/fi/act/1970/616" refersTo="#alpl">
+                  avaruuslentäjien pelastamisesta ja palauttamisesta sekä avaruusesineiden palauttamisesta annettu laki (616/1970)
+                </ref>
+                .
+              </p>
+            </content>
+          </subsection>
+          <subsection eId="sec_22__subsec_3">
+            <content>
+              <p>
+                Ennen tämän lain voimaantuloa aloitettua avaruustoimintaa voidaan jatkaa ilman
+                <ref href="#sec_5">5 §:ssä</ref>
+                tarkoitettua lupaa tai
+                <ref href="#sec_11">11 §:ssä</ref>
+                tarkoitettua hyväksyntää kahdentoista kuukauden ajan lain voimaantulopäivästä lukien.
+              </p>
+            </content>
+          </subsection>
+        </section>
+      </chapter>
+    </body>
+    <conclusions>
+      <p>
+        <noteRef href="#note_1" />
+      </p>
+      <formula eId="formula_2" name="closingFormula">
+        <p>
+          <location refersTo="#hel">Helsingissä</location>
+          <docDate date="2018-01-12">12 päivänä tammikuuta 2018</docDate>
+        </p>
+        <p>
+          <role refersTo="#president">Tasavallan Presidentti</role>
+        </p>
+        <p>
+          <person refersTo="#niinistö">Sauli Niinistö</person>
+        </p>
+        <p>
+          <role refersTo="#ekm">Elinkeinoministeri</role>
+          <person refersTo="#lintilä">Mika Lintilä</person>
+        </p>
+      </formula>
+    </conclusions>
+  </act>
+</akomaNtoso>
